@@ -4,24 +4,28 @@
     <meta charset="utf-8">
     <title>KRAT</title>
 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <link href="styles/main.css" rel="stylesheet" type="text/css">
     <link href="styles/navbar.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <nav class="nav">
-    <div class="title">
-      <h1>KRAT</h1>
-    </div>
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+        <div class="title">
+            <h1>KRAT</h1>
+        </div>
+    
+        <label for="show-menu" class="show-menu">Show Menu</label>
+        <input type="checkbox" id="show-menu" role="button">
+    
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-  <div class="flex-container">
+    <div class="flex-container">
     
     <div class="banner">
       <img src="images/hats.jpg" alt="hats">
