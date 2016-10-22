@@ -1,10 +1,13 @@
 # Krat-website
 
 ##Home
-###Product imagery and small intro
+- Product imagery - styling
+- Small intro
 
 ##About
-###Who and what
+- Who
+- What
 
 ##Contact
-###Including stockists
+- Email contact
+- Stockists
